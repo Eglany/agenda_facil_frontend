@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-closing-bracket-location */
 import React, { useEffect, useState } from 'react';
-import { FaCalendarAlt, FaStar, FaUserAlt } from 'react-icons/fa';
+import { FaCalendarAlt, FaStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 function CompanySideBar() {
@@ -34,13 +34,13 @@ function CompanySideBar() {
           <FaStar className="mx-4 h-6 w-6" />
           <strong>Meus Servicos</strong>
         </Link>
-        <Link
+        {/* <Link
           to="/user/perfil"
           className="my-2 flex h-16 flex-row items-center hover:bg-af-sid-f-blue"
         >
           <FaUserAlt className="mx-4 h-6 w-6" />
           <strong>Ver perfil</strong>
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
