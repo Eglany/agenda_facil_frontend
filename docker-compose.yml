@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  frontend:
+    image: node:16-alpine
+    container_name: app_frontend
+    command: npm start
+    restart: on-failure
+    working_dir: /src
+    ports:
+      - 3000:3000
+    healthcheck:
+      test: ['CMD', 'lsof', '-t', '-i:3000'] # Caso utilize outra porta interna para o front, altere ela aqui também
+      timeout: 10s
+      retries: 5
