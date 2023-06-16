@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { FaEdit, FaSearchPlus, FaTrashAlt } from 'react-icons/fa';
 
 function CompanyScheduleCard({ schedule }) {
   const { user, date, hour } = schedule;
@@ -25,7 +24,7 @@ function CompanyScheduleCard({ schedule }) {
           </p>
         </div>
         <div className="card-actions flex w-1/5 items-center justify-center space-x-2">
-          <button
+          {/* <button
             type="button"
             className="rounded bg-af-main-blue p-2 text-white"
           >
@@ -39,7 +38,7 @@ function CompanyScheduleCard({ schedule }) {
           </button>
           <button type="button" className="rounded bg-red-600 p-2 text-white">
             <FaTrashAlt />
-          </button>
+          </button> */}
         </div>
       </div>
     </li>
