@@ -1,5 +1,7 @@
 # Agenda Facil - Frontend
 
+<img src="./public/agenda_facil_project_demonstration.gif" alt="project demonstration" />
+
 Bem-vindo ao projeto de frontend do Agenda Fácil! Este sistema foi desenvolvido como parte da feira de tecnologia da Faculdade Fametro localizada em Manaus/AM, desenvolvido no primeiro período do curso de Sistema de Informação. O objetivo deste projeto é auxiliar pequenas e médias empresas no gerenciamento dos agendamentos de seus serviços.
 
 O frontend é responsável pelo interface com o usuário e interação com o sistema. Foi construido usando tecnologias como React, Tailwind e DaisyUI. 
